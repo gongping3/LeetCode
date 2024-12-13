@@ -1,0 +1,5 @@
+使用双指针解题，假设有两个指针，new_array_index 和 old_array_index，分别指向新数组和旧数组的索引。
+新数组也就是我们将要返回的数组
+
+old_array_index 用于遍历旧数组，new_array_index 用于更新新数组，新数组的更新条件就是当遍历旧数组时发现
+不等于val的元素。
